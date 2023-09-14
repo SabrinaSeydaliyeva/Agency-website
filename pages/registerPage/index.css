@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .container {
   width: 100%;
   min-height: 100vh;
@@ -12,8 +7,9 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #000;
-  background-color: #2f8cad;
-  background: lightgray 50%/cover no-repeat;
+  background: #2f8cad;
+  background: #2f8cad lightgray 50%/cover no-repeat;
+  /* background: lightgray 50% / cover no-repeat; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .container .profil-img {
@@ -29,17 +25,30 @@
   background: #fff;
 }
 .container .form-box form input {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   width: 100%;
   height: 50px;
+  padding: 0 20px;
 }
-.container .form-box form .btn {
-  display: flex;
-  justify-content: flex-end;
+.container .form-box form p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 300% */
+  letter-spacing: 1.6px;
 }
-.container .form-box form .btn button {
+.container .form-box form p a {
+  text-decoration: none;
+}
+.container .form-box form button {
   width: 213px;
   height: 65px;
+  margin-left: auto;
+  display: block;
+  border: none;
   border-radius: 12px;
   background: #2f8cad;
   color: #fff;
@@ -50,4 +59,4 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2.2px;
-}/*# sourceMappingURL=index.css.map */
+}
