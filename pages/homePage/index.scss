@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 32px 42px 120px 80px;
+  background: #fff;
+
+  .novbar {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      width: 168px;
+      height: 41px;
+    }
+
+    .novbar-text {
+      width: 400px;
+      ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          list-style-type: none;
+          a {
+            text-decoration: none;
+            color: var(--Primary-colors, #333);
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%;
+          }
+        }
+      }
+    }
+
+    button {
+      width: 200px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      background: var(--secendery, #09f);
+      color: #fff;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px; /* 166.667% */
+
+      a {
+        text-decoration: none;
+
+      }
+    }
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+
+    .text-box {
+      margin-top: 259px;
+
+      h1 {
+        color: var(--Primary-colors, #333);
+        font-family: Inter;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -0.9px;
+      }
+
+      p {
+        margin-top: 32px;
+        color: var(--Primary-colors, #333);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+      }
+
+      .btns {
+        margin-top: 40px;
+        display: flex;
+        gap: 16px;
+
+        .btn-1 {
+          color: var(--Basic, #fff);
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          padding: 12px 24px;
+          border-radius: 4px;
+          border: 1px solid var(--Basic, #fff);
+          background: var(--secendery, #09f);
+        }
+
+        .btn-2 {
+          color: var(--secendery, #09f);
+          font-family: Inter;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          padding: 12px 24px;
+          border-radius: 4px;
+          border: 1px solid var(--secendery, #09f);
+        }
+      }
+    }
+
+    .img-box {
+      img {
+        width: 664.905px;
+        height: 735px;
+      }
+    }
+  }
+}

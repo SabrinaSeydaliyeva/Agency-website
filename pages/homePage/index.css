@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 32px 42px 120px 80px;
+  background: #fff;
+}
+.container .novbar {
+  display: flex;
+  justify-content: space-between;
+}
+.container .novbar .logo {
+  width: 168px;
+  height: 41px;
+}
+.container .novbar .novbar-text {
+  width: 400px;
+}
+.container .novbar .novbar-text ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container .novbar .novbar-text ul li {
+  list-style-type: none;
+}
+.container .novbar .novbar-text ul li a {
+  text-decoration: none;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.container .novbar button {
+  width: 200px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background: var(--secendery, #09f);
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+.container .novbar button a {
+  text-decoration: none;
+}
+.container main {
+  display: flex;
+  justify-content: space-between;
+}
+.container main .text-box {
+  margin-top: 259px;
+}
+.container main .text-box h1 {
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: -0.9px;
+}
+.container main .text-box p {
+  margin-top: 32px;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.container main .text-box .btns {
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+}
+.container main .text-box .btns .btn-1 {
+  color: var(--Basic, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--Basic, #fff);
+  background: var(--secendery, #09f);
+}
+.container main .text-box .btns .btn-2 {
+  color: var(--secendery, #09f);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid var(--secendery, #09f);
+}
+.container main .img-box img {
+  width: 664.905px;
+  height: 735px;
+}/*# sourceMappingURL=index.css.map */

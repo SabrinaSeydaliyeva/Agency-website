@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 153, 255, 0.04);
+  padding: 120px 80px;
+}
+.container .text-box h1 {
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: center;
+}
+.container .text-box h2 {
+  margin-top: 20px;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+  text-align: center;
+}
+.container .text-box p {
+  margin: auto;
+  margin-top: 32px;
+  width: 612px;
+  color: var(--Body, #494949);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%;
+}
+.container main {
+  margin-top: 72px;
+}
+.container main ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.container main ul .card-1,
+.container main ul .card-2,
+.container main ul .card-3,
+.container main ul .card-4 {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+}
+.container main ul .card-1 li,
+.container main ul .card-2 li,
+.container main ul .card-3 li,
+.container main ul .card-4 li {
+  padding: 68px 60px;
+  list-style-type: none;
+}
+.container main ul .card-1 li img,
+.container main ul .card-2 li img,
+.container main ul .card-3 li img,
+.container main ul .card-4 li img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+.container main ul .card-1 li h3,
+.container main ul .card-2 li h3,
+.container main ul .card-3 li h3,
+.container main ul .card-4 li h3 {
+  margin-top: 16px;
+  color: var(--Primary-colors, #333);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+.container main ul .card-1 li p,
+.container main ul .card-2 li p,
+.container main ul .card-3 li p,
+.container main ul .card-4 li p {
+  margin-top: 24px;
+  color: var(--Body, #494949);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+}/*# sourceMappingURL=index.css.map */
