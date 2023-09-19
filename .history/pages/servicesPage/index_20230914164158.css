@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 153, 255, 0.04);
+  padding: 120px 80px;
+}
+.container .text-box h1 {
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: center;
+}
+.container .text-box h2 {
+  margin-top: 20px;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+  text-align: center;
+}
+.container .text-box .p-1 {
+  margin: auto;
+  margin-top: 32px;
+  width: 612px;
+  color: var(--Body, #494949);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%;
+}
+.container main {
+  margin-top: 72px;
+}
+.container main ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container main ul li {
+  width: 23%;
+  padding: 30px;
+  list-style-type: none;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+}
+.container main ul li img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+.container main ul li h3 {
+  margin-top: 16px;
+  color: var(--Primary-colors, #333);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+.container main ul li p {
+  margin-top: 24px;
+  color: var(--Body, #494949);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+}/*# sourceMappingURL=index_20230914164158.css.map */

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 153, 255, 0.04);
+  padding: 120px 80px 135px 80px;
+}
+.container h1 {
+  color: var(--Primary-colors, #333);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.container h2 {
+  margin-top: 16px;
+  color: var(--Primary-colors, #333);
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+}
+.container p {
+  margin-top: 32px;
+  color: var(--Body, #494949);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%;
+}
+.container main {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.container main img {
+  width: 290px;
+  height: 379px;
+  border-radius: 4px 4px 0px 0px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+.container main .logo {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+.container main h3 {
+  margin-top: 16px;
+  color: var(--Primary-colors, #333);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.container main span {
+  margin-top: 8px;
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.container main .box1 {
+  position: relative;
+}
+.container main .box1 .text-box1 {
+  position: absolute;
+  top: 311px;
+  left: 24px;
+  width: 260px;
+  border-radius: 4.597px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+  padding: 13px 0 13px 12px;
+}
+.container main .box2 {
+  position: relative;
+}
+.container main .box2 .text-box2 {
+  position: absolute;
+  top: 311px;
+  left: 24px;
+  width: 260px;
+  border-radius: 4.597px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+  padding: 13px 28px 13px 12px;
+}
+.container main .box3 {
+  position: relative;
+}
+.container main .box3 .text-box3 {
+  position: absolute;
+  top: 311px;
+  left: 24px;
+  width: 260px;
+  border-radius: 4.597px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+  padding: 13px 28px 13px 12px;
+}
+.container main .box4 {
+  position: relative;
+}
+.container main .box4 .text-box4 {
+  position: absolute;
+  top: 311px;
+  left: 24px;
+  width: 260px;
+  border-radius: 4.597px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(164, 217, 253, 0.15);
+  padding: 13px 28px 13px 12px;
+}/*# sourceMappingURL=index.css.map */

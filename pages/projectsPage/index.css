@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 120px 80px;
+}
+.container h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138%;
+}
+.container main {
+  margin-top: 80px;
+}
+.container main ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container main ul li {
+  padding: 8px;
+  list-style-type: none;
+}
+.container main ul li img {
+  width: 376px;
+  height: 376px;
+}
+.container main ul li h2 {
+  margin-top: 25px;
+  color: #000;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+.container main ul li p {
+  margin-top: 20px;
+  width: 376px;
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+}
+.container main ul li button {
+  padding-bottom: 12px;
+  margin-top: 32px;
+  width: 110.843px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-bottom: 2px solid #09f;
+  font-family: THICCCBOI;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}/*# sourceMappingURL=index.css.map */

@@ -43,6 +43,9 @@
 .container .form-box form p a {
   text-decoration: none;
 }
+.container .form-box form .error-msj {
+  color: red;
+}
 .container .form-box form button {
   width: 213px;
   height: 65px;
@@ -59,4 +62,4 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2.2px;
-}
+}/*# sourceMappingURL=index.css.map */
