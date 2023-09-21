@@ -44,6 +44,7 @@
   text-decoration: none;
 }
 .container .form-box form .error-msj {
+  display: none;
   color: red;
 }
 .container .form-box form button {

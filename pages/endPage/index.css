@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 153, 255, 0.04);
+  padding: 92px 80px 80px 80px;
+}
+.container ul {
+  display: flex;
+  justify-content: space-between;
+}
+.container ul .li-1 {
+  width: 307px;
+  list-style-type: none;
+}
+.container ul .li-1 img {
+  width: 168px;
+  height: 41px;
+}
+.container ul .li-1 p {
+  margin-top: 32px;
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.container ul .li-1 .logo {
+  margin-top: 32px;
+  width: 272px;
+  display: flex;
+}
+.container ul .li-2,
+.container ul .li-3 {
+  list-style-type: none;
+}
+.container ul .li-2 h1,
+.container ul .li-3 h1 {
+  margin-bottom: 40px;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.container ul .li-2 h2,
+.container ul .li-3 h2 {
+  margin-bottom: 20px;
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.container ul .li-4 {
+  list-style-type: none;
+}
+.container ul .li-4 h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+}
+.container ul .li-4 p {
+  margin-top: 40px;
+  width: 374px;
+  color: var(--Body, #494949);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.container ul .li-4 form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+.container ul .li-4 form input {
+  color: white;
+  width: 308px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--Primary-colors, #333);
+}
+.container ul .li-4 form button {
+  margin-top: 24px;
+  width: 200px;
+  height: 54px;
+  border: none;
+  border-radius: 4px;
+  background: var(--secendery, #09f);
+}
+.container ul .li-4 form button a {
+  text-decoration: none;
+  color: var(--Basic, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}/*# sourceMappingURL=index.css.map */
